@@ -4,12 +4,11 @@ Frontend Application for Mountkirk Games Repository
 
 1. This application will be used as a frontend for Mountkirk Games Repository.<br>
 2. Create a vm with following configuration:
-  a. f1-micro
-  b. debian-9
-  c. 10 gb persistent disk
-  d. Custom VPC
-  e. Others as default
- <br>
+  a. f1-micro<br>
+  b. debian-9<br>
+  c. 10 gb persistent disk<br>
+  d. Custom VPC<br>
+  e. Others as default<br>
  3. SSH into VM.<br>
  5. Download following softwares <br>
    <p> sudo -s
