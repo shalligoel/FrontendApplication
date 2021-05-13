@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Mountkirk Game</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #04AA6D;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+</head>
+ 
+<body>
+    <div class="topnav">
+    <h3 class="text-muted"> Mountkirk Game</h3>
+    <div class="topnav-right">
+        <a href="signin">Sign In</a>
+        <a href="signup">Sign Up</a>
+    </div>
+</div>
+<br><br><br>
+<div style="padding-left:24px">
+
+   <img src="{{ url_for('static', filename='mkgames.jpeg', width=800, height=200) }}" /></div>
+
+    
+</body>
+ <br><br><br>
+
+ image courtesy: https://www.popularmechanics.com/culture/gaming/g30275221/multiplayer-games/
+</html>

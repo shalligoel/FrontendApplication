@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Mountkirk Game</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #04AA6D;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-left {
+  float: left;
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+</head>
+ 
+<body>
+    <div class="topnav">
+    <h3 class="text-muted"> Mountkirk Game</h3>
+    <div class="topnav-left">
+        <a href="/">Home</a></div>
+    <div class="topnav-right">
+       <h3>Welcome: {{ user }}</h3>
+        <a href="feedback">Feedbacks</a>
+        <a href="score">Scores</a>
+    </div>
+</div>
+<br><br>
+<div class="center">
+   <a href="http://34.122.231.241/MountkirkGames/index.html" target="_blank"><H1>Play Game</H1> <br>
+</a>
+   </H1>
+</div>
+<div style="padding-left:24px">
+
+   <img src="{{ url_for('static', filename='mkgames.jpeg', width=800, height=200) }}" /></div>
+
+    
+</body>
+ <br><br><br>
+
+ image courtesy: https://www.popularmechanics.com/culture/gaming/g30275221/multiplayer-games/
+</html>
