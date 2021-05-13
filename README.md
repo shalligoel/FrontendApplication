@@ -13,7 +13,7 @@
     sudo -s<br>
     mkdir /frontend<br>
     cd /frontend<br>
-    apt update<br>
+    sudo apt update && sudo apt upgrade<br>
     apt install git -y<br>
     apt install python3 python3-pip -y<br>
     pip3 install Flask<br>
@@ -21,8 +21,8 @@
     pip3 install PyMySQL</p><br>
  6. git clone https://github.com/shalligoel/FrontendApplication<br>
  7. cd frontend<br>
- 8. Get IP Addres of Cloud-SQL Instance and save in config.py file<br>
- 9. Get IP Address of VM where your MountkirkGames is running and save in config.py.<br>
+ 8. Get IP Addres of Cloud-SQL Instance and save in dblocal.py. Update username, password and Database name if needed.
+ 9. Get IP Address of VM where your MountkirkGames is running and save in game.html.
  10. Run your application:<br>
      python3 app.py 
  
