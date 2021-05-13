@@ -14,7 +14,7 @@
     mkdir /frontend<br>
     cd /frontend<br>
     apt update<br>
-    apt install git<br>
+    apt install git -y<br>
     apt install python3 python3-pip -y<br>
     pip3 install Flask<br>
     pip3 install google-cloud-logging<br>
