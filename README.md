@@ -1,7 +1,6 @@
 # FrontendApplication
-Frontend Application for Mountkirk Games Repository
+### Frontend Application for Mountkirk Games Repository
 <br><br>
-
 1. This application will be used as a frontend for Mountkirk Games Repository.<br>
 2. Create a vm with following configuration:
   a. f1-micro<br>
@@ -11,15 +10,15 @@ Frontend Application for Mountkirk Games Repository
   e. Others as default<br>
  3. SSH into VM.<br>
  5. Download following softwares <br>
-   <p> sudo -s
-    mkdir /frontend
-    cd /frontend
-    apt update
-    apt install git
-    apt install python3 python3-pip -y
-    pip3 install Flask
-    pip3 install google-cloud-logging
-    pip3 install PyMySQL</p>
+    sudo -s<br>
+    mkdir /frontend<br>
+    cd /frontend<br>
+    apt update<br>
+    apt install git<br>
+    apt install python3 python3-pip -y<br>
+    pip3 install Flask<br>
+    pip3 install google-cloud-logging<br>
+    pip3 install PyMySQL</p><br>
  6. git clone https://github.com/shalligoel/FrontendApplication<br>
  7. cd frontend<br>
  8. Get IP Addres of Cloud-SQL Instance and save in config.py file<br>
